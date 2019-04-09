@@ -16,6 +16,12 @@ class TestLab1(unittest.TestCase):
         loc3 = Location("Italy", 10, 100.5)
         self.assertFalse(loc1 == loc3)
         self.assertEqual(loc1, loc2)    
+    
+    def test_init(self):
+       loc = Location("SLO", 35.3, -120.7)
+       self.assertEqual(loc.name, "SLO")
+       self.assertEqual(loc.lat, 35.3)
+       self.assertEqual(loc.lon, -120.7)
 
 if __name__ == "__main__":
         unittest.main()

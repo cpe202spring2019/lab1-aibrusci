@@ -48,7 +48,7 @@ class TestLab1(unittest.TestCase):
         list_val7 = [1,2,3,4]
         self.assertEqual(bin_search(3, 0, 3, list_val7), 2 )
         list_val7 = [1,2,3,4]
-        self.assertEqual(bin_search(7, 0, 3, list_val7), None )
+        self.assertEqual(bin_search(7, 0, 3, list_val7), None)
  
 if __name__ == "__main__":
         unittest.main()
