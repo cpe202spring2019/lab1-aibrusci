@@ -74,6 +74,8 @@ class TestLab1(unittest.TestCase):
         # test for target as last number in list
         list_val9 = [1,2,3]
         self.assertEqual(bin_search(3, 0, 2, list_val9), 2)
+        list_val10 = []
+        self.assertEqual(bin_search(3, 0, 2, list_val10), None)
 
 if __name__ == "__main__":
         unittest.main()
