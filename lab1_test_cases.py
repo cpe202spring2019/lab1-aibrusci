@@ -60,8 +60,8 @@ class TestLab1(unittest.TestCase):
         list_val5 = [1]
         self.assertEqual(bin_search(1, 0, 1, list_val5), 0)
         # test for target to the left of midpoint
-        list_val6 = [1,2,3,4]
-        self.assertEqual(bin_search(2, 0, 3, list_val6), 1)
+        list_val6 = [1,2,3,4,5]
+        self.assertEqual(bin_search(2, 0, 4, list_val6), 1)
         # test for target to the right of midpoint
         list_val7 = [1,2,3,4]
         self.assertEqual(bin_search(3, 0, 3, list_val7), 2)
